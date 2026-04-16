@@ -4,9 +4,9 @@ service cloud.firestore {
 
     function isAdmin() {
       return request.auth.token.email in [
-        "Mohammadisayu20@gmail.com",
-        "junbhais@gmail.com",
-        "ppingr@gmail.com"
+        "1stAdminId@gmail.com",
+        "2ndAdminID@gmail.com",
+        "3rdAdminId@gmail.com"
       ];
     }
 
